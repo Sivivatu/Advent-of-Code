@@ -88,9 +88,11 @@ AoC Day X.yxmd</AnnotationText>
           <DefaultAnnotationText>AoC Day X.yxmd</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="2540" source="File: D:\Advent-of-Code\2025\Alteryx\Supporting Files\AoC Day X.yxmd" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
     </Node>
@@ -213,7 +215,7 @@ AoC Day X.yxmd</AnnotationText>
           <Value name="Numeric Up Down (9)">1</Value>
           <Value name="Numeric Up Down (15)">2025</Value>
           <Value name="Text Box (20)">AoC_Input_Day_</Value>
-          <Value name="Text Box (12)">session=53616c7465645f5fd81334df6b7aff38a8f7f0cf10d878aea72d82ac429e6f8c5158a79d289d3ab1c4fd6bba03992233e6b8916e08960e7f8f967692ec867367</Value>
+          <Value name="Text Box (12)">53616c7465645f5fd81334df6b7aff38a8f7f0cf10d878aea72d82ac429e6f8c5158a79d289d3ab1c4fd6bba03992233e6b8916e08960e7f8f967692ec867367</Value>
           <Value name="Text Box (27)">paul.j.houghton@gmail.com</Value>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -347,6 +349,7 @@ BaseA Starter Kit</Text>
                 <HeaderRow>False</HeaderRow>
                 <CodePage>65001</CodePage>
                 <WriteBOM>True</WriteBOM>
+                <SuppressBlankFile>False</SuppressBlankFile>
               </FormatSpecificOptions>
               <MultiFile value="True" />
               <MultiFileType>FileName</MultiFileType>
@@ -382,6 +385,7 @@ BaseA Starter Kit</Text>
                 <HeaderRow>True</HeaderRow>
                 <CodePage>65001</CodePage>
                 <WriteBOM>True</WriteBOM>
+                <SuppressBlankFile>False</SuppressBlankFile>
               </FormatSpecificOptions>
               <MultiFile value="True" />
               <MultiFileType>FileName</MultiFileType>
